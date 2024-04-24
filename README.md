@@ -8,6 +8,13 @@ FEATURES:
 3. Add to cart functionality is also included in this project.
 
 
+SETTING UP THE APPLICATION:
+
+1.Clone the repository: Clone the github repository to the local machine using `git clone` command.
+
+2.Navigate to the project directory using `cd <filename>`     
+
+
 WEBSITE IMAGES:-
 
 ![KhanaKhazana](https://github.com/chirasbanikagt2000/KhanaKhazana/assets/165468003/2cc7452a-d613-42ec-a524-ab3141f02378)
