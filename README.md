@@ -8,9 +8,14 @@ FEATURES:
 3. Add to cart functionality is not included this project.
 
 
-WEBSITE IMAGE:-
+WEBSITE IMAGES:-
 
 ![KhanaKhazana](https://github.com/chirasbanikagt2000/KhanaKhazana/assets/165468003/2cc7452a-d613-42ec-a524-ab3141f02378)
+![KhanaKhazana2](https://github.com/chirasbanikagt2000/KhanaKhazana/assets/165468003/33bf7cf7-482a-4290-95a7-f4cdb929310a)
+![KhanaKhazana3](https://github.com/chirasbanikagt2000/KhanaKhazana/assets/165468003/d34d2e9e-1b0d-4f7d-bbcc-36a7095c5b6c)
+
+
+
 
    
 
