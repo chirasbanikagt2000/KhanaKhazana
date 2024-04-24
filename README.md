@@ -5,7 +5,7 @@ DESCRIPTION: A frontend based project using `HMTL`,`CSS` and `JavaScript`. This 
 FEATURES:
 1. It has a sticky navbar where various options are available. By clicking on the options one can directly get redirected to that particular portion of the page.
 2. It also showcases the sliding option using simple JavaScript.
-3. Add to cart functionality is not included this project.
+3. Add to cart functionality is also included in this project.
 
 
 WEBSITE IMAGES:-
