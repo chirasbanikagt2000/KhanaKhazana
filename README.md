@@ -7,3 +7,10 @@ FEATURES:
 2. It also showcases the sliding option using simple JavaScript.
 3. Add to cart functionality is not included this project.
 
+
+WEBSITE IMAGE:-
+
+![KhanaKhazana](https://github.com/chirasbanikagt2000/KhanaKhazana/assets/165468003/2cc7452a-d613-42ec-a524-ab3141f02378)
+
+   
+
