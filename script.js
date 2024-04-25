@@ -36,7 +36,7 @@ document.querySelectorAll('.add-to-cart, .remove-from-cart').forEach(button => {
 });
 
 
-//Swiper functionality
+//Swiper box functionality
 
 var swiper = new Swiper(".product-slider", {
   loop:true,
