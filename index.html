@@ -9,6 +9,7 @@
    
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     
     <link rel="stylesheet" href="./style.css">
@@ -33,8 +34,8 @@
         <div class="icons">
             <div class="fas fa-search" id="search-btn"></div>
            
-<div class="fas fa-shopping-cart" id="cart-btn">
-    <span>0</span>
+<div class="fas fa-shopping-cart" id="cart-btn" onclick="toggleCart()">
+    <span id="cart-count">0</span>
 </div>
 
 
@@ -162,7 +163,7 @@
             <div class="swiper product-slider">
                 <div class="swiper-wrapper">
         
-                    <div class="swiper-slide box">
+                    <div class="swiper-slide box" data-id="1">
                         <img src="images/carrot.jpg" alt="">
                         <h3 class="h-secondary center">Fresh Carrots</h3>
                         <div class="price"> &#8377 62.50/kilograms </div>
@@ -171,13 +172,16 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i><p>
-                            <a href="#" class="btn success" onclick="addToCart()">add to cart</a></p>
+                            <i class="fas fa-star-half-alt"></i>
+                            <p>
+                                <a href="#" class="btn success add-to-cart" data-id="1">Add to Cart</a>
+                                <a href="#" class="btn danger remove-from-cart" style="display: none;" data-id="1">Remove from Cart</a>
+                            </p>
                         </div>
                         
                     </div>
         
-                    <div class="swiper-slide box">
+                    <div class="swiper-slide box" data-id="2">
                         <img src="images/cauliflower.jpg" alt="">
                         <h3>Fresh Cauliflower</h3>
                         <div class="price">  &#8377 40/kilograms </div>
@@ -187,14 +191,17 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star-half-alt"></i>
-                            <p>
-                                <a href="#" class="btn success">add to cart</a></p>
+                
+                                <p>
+                                    <a href="#" class="btn success add-to-cart" data-id="2">Add to Cart</a>
+                                    <a href="#" class="btn danger remove-from-cart" style="display: none;" data-id="2">Remove from Cart</a>
+                                </p>
                         </div>
                         
                        
                     </div>
         
-                    <div class="swiper-slide box">
+                    <div class="swiper-slide box" data-id="3">
                         <img src="images/potato.jpg" alt="">
                         <h3>Fresh Potatoes</h3>
                         <div class="price">  &#8377 25/kilograms </div>
@@ -204,12 +211,15 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star-half-alt"></i>
-                            <p>
-                                <a href="#" class="btn success">add to cart</a></p>
+                           
+                                <p>
+                                    <a href="#" class="btn success add-to-cart" data-id="3">Add to Cart</a>
+                                    <a href="#" class="btn danger remove-from-cart" style="display: none;" data-id="3">Remove from Cart</a>
+                                </p>
                         </div>
                         
                     </div>
-                    <div class="swiper-slide box">
+                    <div class="swiper-slide box" data-id="4">
                         <img src="images/pumpkin.jpeg" alt="">
                         <h3>Fresh pumkin</h3>
                         <div class="price">  &#8377 71.05/kilograms </div>
@@ -219,15 +229,18 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star-half-alt"></i>
-                            <p>
-                                <a href="#" class="btn success">add to cart</a></p>
+                            
+                                <p>
+                                    <a href="#" class="btn success add-to-cart" data-id="4">Add to Cart</a>
+                                    <a href="#" class="btn danger remove-from-cart" style="display: none;" data-id="4">Remove from Cart</a>
+                                </p>
                         </div>
 
                         
                   
                        
                     </div>
-                    <div class="swiper-slide box">
+                    <div class="swiper-slide box" data-id="5">
                         <img src="images/tomato.jpeg" alt="">
                         <h3>Fresh tomatoes</h3>
                         <div class="price">  &#8377 40/kilograms </div>
@@ -237,8 +250,11 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star-half-alt"></i>
-                            <p>
-                                <a href="#" class="btn success">add to cart</a></p>
+                           
+                                <p>
+                                    <a href="#" class="btn success add-to-cart" data-id="5">Add to Cart</a>
+                                    <a href="#" class="btn danger remove-from-cart" style="display: none;" data-id="5">Remove from Cart</a>
+                                </p>
                         </div>
 
                         

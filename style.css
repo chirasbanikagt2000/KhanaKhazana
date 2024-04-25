@@ -335,7 +335,7 @@ html{
 
 
 
-.btn {
+ .btn {
     display: inline-block; /* Ensure buttons are inline */
     padding: 10px 20px; /* Add padding to buttons */
     font-size: 14px; /* Set font size for buttons */
@@ -348,7 +348,7 @@ html{
 
 .btn:hover {
     background-color: #219653; /* Change background color on hover */
-}
+} 
 
 
 
