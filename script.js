@@ -25,10 +25,3 @@ var swiper = new Swiper(".product-slider", {
 });
 
 
-function addToCart() {
-  //const cartCountSpan = document.querySelector('.btn success');
-  let currentCount = 0;
-  currentCount++;
-  
-  console.log(currentCount)
-}
