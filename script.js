@@ -20,6 +20,8 @@ function updateCartCount(action, productId) {
     cartCount.textContent = cartItemsCount;
 }
 
+
+
 document.querySelectorAll('.add-to-cart, .remove-from-cart').forEach(button => {
     button.addEventListener('click', function(event) {
         event.preventDefault();
